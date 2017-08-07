@@ -6,9 +6,8 @@
 ./generate-lemp.sh
 
 for i in *.ctl; do
-	equivs-build $i
+	equivs-build "$i"
 done
 
 # Remove LEMP files
-rm *lemp*.ctl
-
+rm ./*lemp*.ctl
