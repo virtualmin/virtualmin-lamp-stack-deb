@@ -10,3 +10,9 @@ for i in *deb-9*.deb; do
   echo "Adding $i to stretch repo"
   aptly repo add virtualmin-stretch $i
 done
+
+for i in *deb-7*.deb; do
+  echo "Adding $i to wheezy repo"
+  aptly repo add virtualmin-wheezy $i
+done
+
