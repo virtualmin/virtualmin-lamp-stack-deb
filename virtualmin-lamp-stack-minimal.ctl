@@ -4,7 +4,7 @@ Homepage: https://github.com/virtualmin/virtualmin-lamp-stack-deb
 Standards-Version: 3.9.2
 
 Package: virtualmin-lamp-stack-minimal
-Version: 6.0.3+deb-8
+Version: 6.0.4+deb-8
 Maintainer: Joe Cooper <joe@virtualmin.com>
 Depends: bsdutils, libcrypt-ssleay-perl, unzip, zip, libfcgi-dev, openssl, python, libapache2-mod-fcgid, apache2-suexec-custom, apache2, apache2-doc, php-pear, php5, php5-cgi, php5-fpm, ntpdate, postfix, postfix-pcre, quota, php7.0, php7.0-cgi, php7.0-fpm, php7.0-cli
 Recommends: libdbd-mysql-perl, iptables, firewalld, clamav, clamav-base, spamc, procmail, procmail-wrapper, mysql-server, mysql-client, mysql-common, proftpd, php5-mbstring, php5-mcrypt, jailkit, fail2ban, php7.0-mysql, php7.0-mcrypt, php7.0-mbstring
