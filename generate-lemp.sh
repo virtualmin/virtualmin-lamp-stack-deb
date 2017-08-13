@@ -9,6 +9,7 @@ for i in *.ctl; do
   sed -i "s/LAMP/LEMP/g" "$lempname"
   sed -i "s/apache2, /nginx-full, /" "$lempname"
   sed -i "s/libapache2-mod-fcgid, //" "$lempname"
+  sed -i "s/libfcgi-dev, /fcgiwrap, /" "$lempname"
   sed -i "s/apache2-suexec-custom, //" "$lempname"
   sed -i "s/apache2-doc, //" "$lempname"
   echo ' .' >> $lempname
