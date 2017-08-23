@@ -7,7 +7,7 @@ for i in *.ctl; do
   cp "$i" "$lempname"
   sed -i "s/virtualmin-lamp-stack/virtualmin-lemp-stack/" "$lempname"
   sed -i "s/LAMP/LEMP/g" "$lempname"
-  sed -i "s/apache2, /nginx-full, /" "$lempname"
+  sed -i "s/apache2, /nginx-full, webmin-virtualmin-nginx, webmin-virtualmin-nginx-ssl, /" "$lempname"
   sed -i "s/libapache2-mod-fcgid, //" "$lempname"
   sed -i "s/libfcgi-dev, /fcgiwrap, /" "$lempname"
   sed -i "s/apache2-suexec-custom, //" "$lempname"
