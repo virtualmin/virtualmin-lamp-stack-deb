@@ -7,8 +7,8 @@ Package: virtualmin-lamp-stack-minimal
 Version: 6.0.8+deb-8
 Maintainer: Joe Cooper <joe@virtualmin.com>
 Depends: bsdutils, libcrypt-ssleay-perl, unzip, zip, libfcgi-dev, openssl, python, libapache2-mod-fcgid, apache2-suexec-custom, apache2, apache2-doc, php-pear, php5-common, php5-cgi, php5-fpm, ntpdate, postfix, postfix-pcre, quota, php7.0-common, php7.0-cgi, php7.0-fpm, php7.0-cli, php7.1-common, php7.1-cgi, php7.1-fpm, php7.1-cli
-Recommends: libdbd-mysql-perl, iptables, firewalld, clamav, clamav-base, spamc, procmail, procmail-wrapper, mysql-server, mysql-client, mysql-common, proftpd, php5-mbstring, php5-mcrypt, jailkit, fail2ban, php7.0-mysql, php7.0-mcrypt, php7.0-mbstring, php7.1-mysql, php7.1-mcrypt, php7.1-mbstring, dovecot-core, dovecot-imapd, dovecot-pop3d
-Suggests: postgresql, postgresql-client, libdbd-pg-perl, libpg-perl, clamav-daemon, clamav-freshclam, clamav-docs, clamav-testfiles, libsasl2-2, libsasl2-modules, sasl2-bin, libconfig-inifiles-perl, spamassassin, postgrey, awstats, webalizer
+Recommends: libdbd-mysql-perl, iptables, firewalld, clamav, clamav-base, spamc, procmail, procmail-wrapper, mysql-server, mysql-client, mysql-common, proftpd, php5-mbstring, php5-mcrypt, jailkit, fail2ban, php7.0-mysql, php7.0-mcrypt, php7.0-mbstring, php7.1-mysql, php7.1-mcrypt, php7.1-mbstring, dovecot-core, dovecot-imapd, dovecot-pop3d, libsasl2-2, libsasl2-modules, sasl2-bin
+Suggests: postgresql, postgresql-client, libdbd-pg-perl, libpg-perl, clamav-daemon, clamav-freshclam, clamav-docs, clamav-testfiles, libconfig-inifiles-perl, spamassassin, postgrey, awstats, webalizer
 Replaces: virtualmin-base
 Architecture: all
 Copyright: LICENSE
