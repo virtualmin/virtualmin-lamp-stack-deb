@@ -1,7 +1,7 @@
 Section: admin
 Priority: optional
 Homepage: https://github.com/virtualmin/virtualmin-lamp-stack-deb
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 
 Package: virtualmin-lamp-stack-minimal
 Version: 6.0.10+deb-8
